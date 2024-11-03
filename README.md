@@ -10,7 +10,7 @@ Panduan ini akan membantu Anda untuk mendepoy proyek ke server pakai panel Cyber
 
 2. **Atur Permission untuk `storage` dan `bootstrap/cache`**
 
-   Pastikan direktori `storage` dan `bootstrap/cache` memiliki permission yang benar. Atur permission menjadi `775` dengan menggunakan perintah berikut:
+   Pastikan direktori `storage` dan `bootstrap/cache` memiliki permission yang benar. Atur permission menjadi `775` dengan menggunakan tombol permission di cyberpanel atau pakai perintah berikut jika pakai ssh / terminal:
 
    ```sh
    chmod -R 775 storage
