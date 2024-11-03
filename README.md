@@ -17,3 +17,12 @@ Panduan ini akan membantu Anda untuk mendepoy proyek ke server pakai panel Cyber
    chmod -R 775 bootstrap/cache
 
 3. **Code nya ada di atas, sesuai folder `public_html` dan `public`**
+
+
+## Tambahan
+Untuk symbolic 'link storage laravel' di cyberpanel, jika ada masalah versi php tidak sesuai antara cli / hosting dan projek, bisa gunakan command berikut.
+ubah lsphp82 sesuai dengan versi php yang diinginkan
+
+   ```sh
+   /usr/local/lsws/lsphp82/bin/php artisan storage:link
+
