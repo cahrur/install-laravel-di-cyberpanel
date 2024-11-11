@@ -25,4 +25,9 @@ ubah lsphp82 sesuai dengan versi php yang diinginkan
 
    ```sh
    /usr/local/lsws/lsphp82/bin/php artisan storage:link
-
+   ```
+Atau jika ingin mudah, set default versi php di CLI dengan perintah berikut
+```sh
+echo 'alias php="/usr/local/lsws/lsphp82/bin/php"' >> ~/.bashrc
+source ~/.bashrc
+```
